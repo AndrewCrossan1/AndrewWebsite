@@ -1,0 +1,6 @@
+RewriteEngine on
+
+#Setting the homepage with alias Home
+RewriteRule ^home/$ /public_html/index.php [NC]
+RewriteRule ^$ /public_html/index.php [NC]
+
